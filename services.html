@@ -17,7 +17,7 @@
 
 
 
-  <title>Title page</title>  
+  <title>효선 민영 결혼합니다.</title>
 
 <link href="./main.82cfd66e.css" rel="stylesheet"></head>
 
@@ -32,42 +32,24 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a href="./index.html" class="navbar-brand">Mashup Template</a>
+    <a href="about.html" class="navbar-brand">Mashup Template</a>
   </div>
 
   <nav class="sidebar">
     <div class="navbar-collapse" id="navbar-collapse">
       <div class="site-header hidden-xs">
-          <a class="site-brand" href="./index.html" title="">
-            <img class="img-responsive site-logo" alt="" src="./assets/images/mashup-logo.svg">
-            Mashup Template
+          <a class="site-brand" href="index.html" title="">
+            <img class="img-responsive site-logo" alt="" src="./assets/heart.png">
+            두 사람이 함께여서 좋은 날.
           </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor.</p>
+        <p>2021. 05. 30 일요일 12시 30분</p>
+        <p>뜰안채2</p>
       </div>
       <ul class="nav">
         <li><a href="./index.html" title="">Home</a></li>
-        <li><a href="./about.html" title="">About</a></li>
-        <li><a href="./services.html" title="">Services</a></li>
-        <li><a href="./contact.html" title="">Contact</a></li>
-        <li><a href="./components.html" title="">Components</a></li>
-
+        <li><a href="./about.html" title="">Photo</a></li>
+        <li><a href="./services.html" title="">Map</a></li>
       </ul>
-
-      <nav class="nav-footer">
-        <p class="nav-footer-social-buttons">
-          <a class="fa-icon" href="https://www.instagram.com/" title="">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a class="fa-icon" href="https://dribbble.com/" title="">
-            <i class="fa fa-dribbble"></i>
-          </a>
-          <a class="fa-icon" href="https://twitter.com/" title="">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </p>
-        <p>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
-      </nav>  
     </div> 
   </nav>
 </header>
@@ -76,45 +58,52 @@
 
 <div class="row">
   <div class="col-xs-12 section-container-spacer">
-    <h1>Services</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+    <h1>오시는 길</h1>
   </div>
 
-  <div class="col-xs-12 col-md-4 section-container-spacer">
-    <img class="img-responsive" alt="" src="./assets/images/img-12.jpg">
-    <h2>Consectetur</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="./contact.html" class="btn btn-primary" title=""> Get in touch</a>
+  <div class="col-xs-12 col-md-12 section-container-spacer">
+    <div id="daumRoughmapContainer1615299731651" class="root_daum_roughmap root_daum_roughmap_landing"
+    style="width: 100%">
+
+    </div>
   </div>
 
-  <div class="col-xs-12 col-md-4 section-container-spacer">
-    <img class="img-responsive" alt="" src="./assets/images/img-13.jpg">
-    <h2>Adipiscing</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="./contact.html" class="btn btn-primary" title=""> Get in touch</a>
+  <div class="col-xs-12 col-md-12 section-container-spacer">
+    <h3>대중교통 이용시</h3>
+    <p>4호선 인덕원역 2번출구 앞, 셔틀버스 운행(5-10분 간격)</p>
+    <p>경기 103번 버스 양지편,청계성당 하차 도보5분</p>
+
   </div>
 
-  <div class="col-xs-12 col-md-4 section-container-spacer">
-    <img class="img-responsive" alt="" src="./assets/images/img-14.jpg">
-    <h2>Dolor</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <a href="./contact.html" class="btn btn-primary" title=""> Get in touch</a>
-  </div>
+<!--  <div class="col-xs-12 col-md-4 section-container-spacer">-->
+<!--    <img class="img-responsive" alt="" src="./assets/images/img-14.jpg">-->
+<!--    <h2>Dolor</h2>-->
+<!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--    <a href="./contact.html" class="btn btn-primary" title=""> Get in touch</a>-->
+<!--  </div>-->
 
 </div>
 
 
 </main>
 
-<script>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script charset="UTF-8">
 document.addEventListener("DOMContentLoaded", function (event) {
   navbarToggleSidebar();
   navActivePage();
 });
+
+ <!-- 3. 실행 스크립트 -->
+new daum.roughmap.Lander({
+		"timestamp" : "1615299731651",
+		"key" : "24re5",
+		// "mapWidth" : "100%",
+		"mapHeight" : "500"
+	}).render();
 </script>
+
+
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
