@@ -2,8 +2,10 @@ body {
   font-family: "Dosis", sans-serif; }
 
 /* Home Page Style */
+.mobile {
+  background: url("../assets/images_ori/kiss.PNG") no-repeat center center;
+}
 .ww-home-page {
-  background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
