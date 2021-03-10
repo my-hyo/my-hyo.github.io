@@ -3,7 +3,7 @@ body {
 
 /* Home Page Style */
 .mobile {
-  background: url("../assets/images_ori/kiss.PNG") no-repeat center center;
+  background: url("../assets/kiss.PNG") no-repeat center center;
 }
 .ww-home-page {
   background-size: cover;
