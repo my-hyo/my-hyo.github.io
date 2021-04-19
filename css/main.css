@@ -11,9 +11,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif'; } /*"Dosis", sans-serif;*/
+  font-family: 'MapoFlowerIsland'; } /*'Spoqa Han Sans Neo', 'sans-serif'*/
 
 
 /* Home Page Style */
