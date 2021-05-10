@@ -45,7 +45,7 @@ while (true) {
   Love between MY.HS();
 }
 ```
-(https://i.ibb.co/JFj6zJh/IMG-7003.jpg)
+![사진](https://i.ibb.co/JFj6zJh/IMG-7003.jpg)
 
 ```diff
 - 민영님 결혼 진심으로 축하드립니다!:dove:  
