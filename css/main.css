@@ -172,3 +172,8 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff; }
+
+#message image {
+  width: auto;
+  height: auto;
+}

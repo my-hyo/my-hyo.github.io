@@ -45,8 +45,7 @@ while (true) {
   Love between MY.HS();
 }
 ```
-<img src="https://i.ibb.co/JFj6zJh/IMG-7003.jpg" width="150" height="150">
-
+![보리찡](https://i.ibb.co/JFj6zJh/IMG-7003.jpg)
 민영님 결혼 진심으로 축하드립니다! 🕊️  
 사진만 보아도 두 분이 얼마나 행복하신지 알 수 있을 정도로 보기 좋습니다.  
 검은 머리  🙎🏻‍♀️ 파 뿌리 👩🏻‍🦳  될 때까지 _**오래오래 행복하세요.**_ 🎉   
